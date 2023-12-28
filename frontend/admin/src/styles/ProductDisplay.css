@@ -1,0 +1,178 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.product-table th {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  height: 80px;
+}
+
+.product-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  height: 120px;
+}
+
+.product-table th {
+  background-color: #00334e;
+  color: #fff;
+  font-weight: bold;
+}
+
+.product-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.product-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.update-product,
+.delete-product,
+.notify-supplier,
+.add-product {
+  padding: 4px 4px;
+  margin: 0 4px 4px 0;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.update-product {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.delete-product {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.add-product {
+  background-color: #5588a3;
+  color: #e8e8e8;
+  padding: 12px 20px;
+}
+
+.notify-supplier {
+  background-color: #ffdb58;
+  color: #333;
+}
+
+.update-product:hover,
+.delete-product:hover,
+.notify-supplier:hover,
+.add-product:hover {
+  opacity: 0.85;
+}
+
+.delete-product:hover {
+  background-color: #d32f2f;
+}
+
+.add-product:hover {
+  background-color: #0e3a57;
+  color: #fff;
+}
+
+#heading {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.generate-pdf {
+  padding: 10px 16px;
+  margin: 0 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: #ffcc00;
+  color: #333;
+}
+
+.generate-pdf:hover {
+  opacity: 0.9;
+  background-color: #ffcc00;
+  color: #333;
+}
+
+.notification-button {
+  padding: 10px 16px;
+  margin: 0 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: #cf0e0e;
+  color: #fffefe;
+}
+
+.notification-button:hover {
+  opacity: 0.9;
+  background-color: #f44336;
+}
+
+.back {
+  padding: 4px 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: #f71515;
+  color: #fffefe;
+}
+
+.search-bar {
+  width: 100%;
+}

@@ -1,0 +1,34 @@
+
+/* serach */
+.form-group.pull-right {
+    float: right;
+    display: flex;
+    background-color: #e4edf6;
+    padding: 5px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .search-container {
+    position: relative;
+   
+  }
+  
+  .search.form-control {
+    border: none;
+    padding-right: 0px; /* Adjust the padding to make space for the icon */
+    background-color: #e4edf6;
+  }
+  .fa-search {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust the right offset as needed */
+   
+    
+  }
+   
+  .no-result{
+    color: #fa0606;
+    background-color: #fcfbde;
+  }

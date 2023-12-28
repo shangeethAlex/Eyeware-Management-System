@@ -1,0 +1,56 @@
+/* Add the following styles to your CSS file or style block in your component */
+
+.container {
+  margin-top: 50px;
+}
+
+.btn-container {
+  margin-top: 30px;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.bg-success {
+  background-color: #28a745 !important;
+  color: white;
+}
+
+th,
+td {
+  text-align: center;
+}
+
+.bg-primary {
+  background-color: #007bff !important;
+}
+
+.bg-danger {
+  background-color: #dc3545 !important;
+}
+
+.bg-warning {
+  background-color: #ffc107 !important;
+}
+
+/* Adjust the padding and margin as needed */
+.btn {
+  margin-right: 5px;
+  padding: 5px 10px;
+}
+
+/* Add a bit of space between buttons */
+.btn-container .btn {
+  margin-right: 10px;
+}
+
+/* Adjust the color of the buttons on hover */
+.btn:hover {
+  opacity: 0.8;
+}
+
+.middle-range{
+  margin-top: 200px !important;
+}
+

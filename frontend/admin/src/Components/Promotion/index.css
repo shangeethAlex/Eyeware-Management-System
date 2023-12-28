@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import-normalize;
+
+#sea{
+    width: 20% !important;
+}

@@ -1,0 +1,41 @@
+/* styles.css */
+.ecommerce-footer {
+    margin-top: 50px;
+    background-color: #00334e;
+    color: #8dc8e4;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    max-width: 250px;
+    margin: 0 20px;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: 800;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .aa {
+    color: #fff; /* Set link color to white */
+    text-decoration: none; /* Remove underlines */
+    font-weight: 400;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  

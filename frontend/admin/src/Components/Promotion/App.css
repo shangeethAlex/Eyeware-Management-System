@@ -1,0 +1,10 @@
+.SpinnerSection{
+    margin: 20px auto;
+    position: relative;
+    max-width: 500px;
+  }
+  
+  .powerbar-container{
+    text-align: center;
+    margin-left: 130px;
+  }
